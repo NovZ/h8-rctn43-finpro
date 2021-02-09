@@ -6,7 +6,7 @@ import Movie from '../molecules/Movie';
 import apikey from '../data/data';
 
 const useTemplate = () => {
-    const baseUrl = `http://www.omdbapi.com/?apikey=${apikey}&type=movie`;
+    const baseUrl = `https://www.omdbapi.com/?apikey=${apikey}&type=movie`;
     const [search, setSearch] = useState("");
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(false);
